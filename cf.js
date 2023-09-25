@@ -19,7 +19,7 @@ let COOKIES = undefined;
 let POSTDATA = undefined;
 
 if (process.argv.length < 8){
-    console.log('[CF-GLACIER]   |   [@2k._tyler]');
+    console.log('[CF-]   |   [@2k._tyler]');
     console.log('node CF-GLACIER.js [Method] [Target] [Proxy List] [Time] [Requests Per IP] [Threads]');
     process.exit(0);
 }
